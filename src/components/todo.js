@@ -73,7 +73,7 @@ class Todo extends React.Component {
             </button>
             <ul className="list-group">
              {this.state.todos.map((item, index) => {
-               return <li key={item.id} className="list-groub-item">{item.name}</li>
+               return <li key={item.id} className="list-group-item">{item.name}</li>
              })}
              
             </ul>
